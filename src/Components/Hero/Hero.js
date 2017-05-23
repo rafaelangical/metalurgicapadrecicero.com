@@ -9,11 +9,9 @@ class Hero extends React.Component{
       <div class="hero-wrapper">
         <section class="hero">
           <div id="particles-js">
-            <img src="#"/>
             <h1>Metalúrgica Padre Cícero</h1>
           </div>
         </section>
-        <div id="particles-js"></div>
       </div>
       )
   }

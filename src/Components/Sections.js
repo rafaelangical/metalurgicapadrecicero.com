@@ -1,25 +1,33 @@
 import React from 'react'
 import './Sections.css'
-import 'particles.js'
-import { componentDidMount } from 'react-lifecycle-hoc'
 
-class Hero extends React.Component{
-  render(){
+export default function Sections(){
+
     return (
-      <div class="hero-wrapper">
+      <div class="sections">
         <section id="home" class="content">
           <article class="box home">
+          
           </article>
         </section>
-        <div id="particles-js"></div>
+        
+        <section id="company" class="content">
+          <article class="box company">
+            
+          </article>
+        </section>
+        
+        <section id="service" class="content">
+          <article class="box service">
+            
+          </article>
+        </section>
+        
+        <section id="contact" class="content">
+          <article class="box contact">
+            
+          </article>
+        </section>
       </div>
       )
-  }
 }
-export default componentDidMount(
-  () => {
-    /* eslint-disable no-undef */
-    particlesJS('particles-js', require('./particlesjs-config.json'));
-    /* eslint-enable no-undef */
-  }
-)(Hero)
