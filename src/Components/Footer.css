@@ -8,6 +8,8 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
+    background-color: #78289A;
+    color: #890;
 }
 footer p a{
     text-decoration: none;
