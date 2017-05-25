@@ -1,13 +1,18 @@
-
-section{
-	width: 100%;
-	height: 100%;
-	background-color: red;
-	padding-top: 0;
-	margin-top: 0; 
-}
 .projects{
-  width: 100%;
-  height: 100%;
-  background-color: red;
+	margin: 0;
+	padding: 0;
+	background-color: #A86;
+	display: flex;
+	min-height: 63em;
+}
+.section-images{
+	align-items: center;
+	text-align: center;
+}
+.image-p{
+	width: 15em;
+	height: 15em;
+	border-radius: 5%;
+	margin: 6em 4em 2em 0 ;
+
 }
