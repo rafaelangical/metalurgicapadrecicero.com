@@ -1,0 +1,45 @@
+h2{
+    padding: 1em 0em 0 2em;
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+p.about{
+    padding-top: 3em;
+    display: flex;
+    font-size: 2.0em;
+    text-align: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+section.aboutus{
+    background-color: blue;
+    color: #9AA;
+}
+article.aboutus{
+    float: bottom;
+    display: flex;
+    padding-left: 4em;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    min-height: 60em;
+}
+.imageAbout{
+    width: 20em;
+    height: 20em;
+    text-align: center;
+    margin-left:1em; 
+    padding-left: 5em;
+    border-radius: 100%;
+    filter: blur(0.3px);
+}
+
+.list-about  li{
+    vertical-align: top;
+    text-align: center;
+    font-size: 1.5em;
+    align-items: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #3EF;
+}

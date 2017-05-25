@@ -6,8 +6,8 @@ import { componentDidMount } from 'react-lifecycle-hoc'
 class Hero extends React.Component{
   render(){
     return (
-      <div class="hero-wrapper">
-        <section class="hero">
+      <div className="hero-wrapper">
+        <section className="hero">
           <div id="particles-js">
             <h1>Metalúrgica Padre Cícero</h1>
           </div>
@@ -19,7 +19,7 @@ class Hero extends React.Component{
 export default componentDidMount(
   () => {
     /* eslint-disable no-undef */
-    particlesJS('particles-js', require('./particlesjs-config.json'));
+    particlesJS('particles-js', require('./particlesjs-config(2).json'));
     /* eslint-enable no-undef */
   }
 )(Hero)

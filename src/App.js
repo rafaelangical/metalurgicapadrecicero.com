@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Hero from './Components/Hero/Hero';
-import Sections from './Components/Sections';
+import AboutUs from './Components/AboutUs';
+import Contacts from './Components/Contacts';
+import Projects from './Components/Projects';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import './App.css';
@@ -11,7 +13,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <Hero />
-        <Sections />
+        <AboutUs />
+        <Projects />
+        <Contacts />
         <Footer />
       </div>
     );
