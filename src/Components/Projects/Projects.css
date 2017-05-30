@@ -1,13 +1,14 @@
 .projects{
+	display: flex;
 	margin: 0;
 	padding: 0;
-	background-color: #A86;
-	display: flex;
+	background-color: #AA6;
 	min-height: 63em;
 }
 .section-images{
 	align-items: center;
 	text-align: center;
+	display: inline;
 }
 .image-p{
 	width: 15em;

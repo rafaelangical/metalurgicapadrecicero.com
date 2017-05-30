@@ -1,9 +1,9 @@
 import React from 'react'
 import './AboutUs.css'
-import um from './um.jpg';
-import dois from './2.jpg';
-import quatro from './4.jpg';
-import cinco from './5.jpg';
+import um from './Projects/um.jpg';
+import dois from './Projects/2.jpg';
+import quatro from './Projects/4.jpg';
+import cinco from './Projects/5.jpg';
 
 export default function Sections(){
     return (

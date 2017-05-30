@@ -1,4 +1,5 @@
 h2{
+    margin: 0;
     padding: 1em 0em 0 2em;
     text-transform: uppercase;
     font-size: 2.3em;
@@ -12,7 +13,7 @@ p.about{
     font-family: 'Playfair Display', serif;
 }
 section.aboutus{
-    background-color: blue;
+    background-color: #999;
     color: #9AA;
 }
 article.aboutus{
@@ -26,8 +27,9 @@ article.aboutus{
     min-height: 60em;
 }
 .imageAbout{
-    width: 20em;
-    height: 20em;
+    display: inline-flex;
+    width: 15em;
+    height: 15em;
     text-align: center;
     margin-left:1em; 
     padding-left: 5em;

@@ -40,7 +40,7 @@
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 40,
+        "speed": 80,
         "size_min": 0.1,
         "sync": false
       }
@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 5,
+      "speed": 15,
       "direction": "none",
       "random": true,
       "straight": false,
@@ -84,19 +84,19 @@
       "grab": {
         "distance": 400,
         "line_linked": {
-          "opacity": 1
+          "opacity": 5
         }
       },
       "bubble": {
         "distance": 532.3231572953035,
-        "size": 40,
+        "size": 80,
         "duration": 0.08253072206128738,
         "opacity": 0.18982066074096096,
         "speed": 3
       },
       "repulse": {
         "distance": 200,
-        "duration": 0.4
+        "duration": 2
       },
       "push": {
         "particles_nb": 4

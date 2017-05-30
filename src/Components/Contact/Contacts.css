@@ -5,7 +5,7 @@
   height: 100%;
   background-color: #444;
   min-height: 63em;
-  display: flex;
+  /* display: inline-flex; */
   color: #A45;
   text-align: center;
 }
